@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/Zvukovi">
+        <file>PacmanUmre.mp3</file>
+        <file>PacmanJede.mp3</file>
+        <file>PacmanOriginal.mp3</file>
+    </qresource>
+    <qresource prefix="/Slike">
+        <file>Pac.png</file>
+        <file>Ghost.png</file>
+        <file>Krug.png</file>
+        <file>GlavniZidGoreDole.png</file>
+        <file>Ghost2.png</file>
+        <file>background.jpg</file>
+        <file>Main.jpg</file>
+    </qresource>
+</RCC>

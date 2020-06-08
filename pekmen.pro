@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -16,16 +16,31 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    main.cpp \
-    mainwindow.cpp
+    Ghost.cpp \
+    Ghost2.cpp \
+    Gumb.cpp \
+    Hrana.cpp \
+    Igra.cpp \
+    Igrac.cpp \
+    Points.cpp \
+    Wall.cpp \
+    main.cpp
 
 HEADERS += \
-    mainwindow.h
-
-FORMS += \
-    mainwindow.ui
+    Game.h \
+    Ghost.h \
+    Ghost2.h \
+    Gumb.h \
+    Hrana.h \
+    Igra.h \
+    Igrac.h \
+    Points.h \
+    Wall.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    Resource.qrc
